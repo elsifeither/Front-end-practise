@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
-    }
-    input, button {
-      padding: 10px;
-      font-size: 16px;
-    }
-  </style>
-</head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      input,
+      button {
+        padding: 10px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
 
-<body>
-  <h1>Color Changer App</h1>
-  <input type="text" id="colorInput" placeholder="Enter a color or hex code">
-  <button id="changeColorBtn">Change Color</button>
+  <body>
+    <h1>Color Changer App</h1>
+    <input
+      type="text"
+      id="colorInput"
+      placeholder="Enter a color or hex code"
+    />
+    <button id="changeColorBtn">Change Color</button>
+    <button id="randomColorBtn">Random Color</button>
 
-  <button id="randomColorBtn">Random Color</button>
+    <h2>Color History</h2>
+    <div
+      id="colorHistory"
+      style="display: flex; gap: 10px; flex-wrap: wrap"
+    ></div>
 
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
